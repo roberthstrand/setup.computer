@@ -221,7 +221,7 @@
             "padding" : "15, 15, 15, 15",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true,
+            "useAcrylic" : false,
             "background" : "#000000",
             "backgroundImage" : "C:\\Users\\Roberth Strand\\Pictures\\Wallpaper\\minimalism-landscape-q3.jpg",
             "backgroundImageOpacity" : 0.20,
@@ -245,7 +245,7 @@
             "padding" : "15, 15, 15, 15",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true,
+            "useAcrylic" : false,
             "backgroundImage" : "C:\\Users\\Roberth Strand\\Pictures\\Wallpaper\\99790.jpg",
             "backgroundImageOpacity" : 0.30,
             "backgroundImageStrechMode" : "fill"
@@ -266,7 +266,7 @@
             "padding" : "15, 15, 15, 15",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true,
+            "useAcrylic" : false,
             "backgroundimage" : "C:/Users/Roberth Strand/Pictures/Wallpaper/w0qiutq477v01.jpg",
             "backgroundimageopacity" : 1
         },
@@ -285,7 +285,7 @@
             "name" : "Ubuntu-18.04",
             "padding" : "15, 15, 15, 15",
             "snapOnInput" : true,
-            "useAcrylic" : true,
+            "useAcrylic" : false,
             "backgroundImage" : "C:\\Users\\Roberth Strand\\Pictures\\Wallpaper\\BI8xbGe.jpg",
             "backgroundImageOpacity" : 0.20,
             "backgroundImageStrechMode" : "fill"
