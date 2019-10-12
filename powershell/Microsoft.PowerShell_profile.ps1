@@ -26,3 +26,18 @@ function prompt {
     Write-Host ""
     return "# "
 }
+function Get-Speaker {
+    $speakerProfile = [PSCustomObject]@{
+        Name = "Roberth Strand"
+        Position = "Senior Consultant"
+        Company = "Atea AS"
+        'Primary Focus' = "Microsoft Azure, PowerShell, Security and Automation"
+        'Secondary Focus' = "Microsoft & Office 365, Exchange and Teams"
+        Certifications = $true
+        Blog = "https://destruktive.one"
+        Github = "@RoberthStrand"
+        Twitter = "@RoberthTweets"
+        Untapped = "@RoberthDrinks"
+    }
+    return $speakerProfile
+}
