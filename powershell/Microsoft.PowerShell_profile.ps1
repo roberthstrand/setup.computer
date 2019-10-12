@@ -33,7 +33,7 @@ function Get-Speaker {
         Company = "Atea AS"
         'Primary Focus' = "Microsoft Azure, PowerShell, Security and Automation"
         'Secondary Focus' = "Microsoft & Office 365, Exchange and Teams"
-        Certifications = $true
+        Certified = $true
         Blog = "https://destruktive.one"
         Github = "@RoberthStrand"
         Twitter = "@RoberthTweets"
