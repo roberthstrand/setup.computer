@@ -6,9 +6,10 @@ Feel free to use this file to get inspiration for your own script.
 @RoberthTweets (Twitter)
 
 #>
+# Set executionpolicy to bypass, but only for the run of this script.
+Set-ExecutionPolicy Bypass -Scope Process -Force
 
 # Install Chocolatey, the best package manager for Windows
-Set-ExecutionPolicy Bypass -Scope Process -Force
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Install selected packages
