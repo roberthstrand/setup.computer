@@ -39,7 +39,6 @@ $modules = @(
     "CheckSec"
     "ExchangeOnlineManagement"
     "Az"
-    "pester"
     "PoSH-Git"
     "MSOnline"
     "oh-my-posh"
