@@ -15,6 +15,7 @@ $packages = @(
     "vlc"
     "7zip"
     "git"
+    "github-desktop"
     "putty"
     "googlechrome"
     "firefox"
@@ -23,8 +24,10 @@ $packages = @(
     "keepass"
     "vscode"
     "terraform"
+    "packer"
     "rdmfree"
     "discord"
     "steam"
+    "bitwarden"
 )
 choco install $packages -y
