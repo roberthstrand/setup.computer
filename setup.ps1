@@ -8,7 +8,8 @@ Feel free to use this file to get inspiration for your own script.
 #>
 
 # Install Chocolatey, the best package manager for Windows
-Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Install selected packages
 $packages = @(
@@ -31,3 +32,17 @@ $packages = @(
     "bitwarden"
 )
 choco install $packages -y
+
+# PowerShell Modules
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+$modules = @(
+    "SkypeToolPack"
+    "CheckSec"
+    "ExchangeOnlineManagement"
+    "Az"
+    "pester"
+    "PoSH-Git"
+    "MSOnline"
+    "oh-my-posh"
+)
+Install-Module $modules -Confirm:$false
