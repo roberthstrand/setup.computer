@@ -16,7 +16,6 @@ $packages = @(
     "vlc"
     "7zip"
     "git"
-    "github-desktop"
     "putty"
     "googlechrome"
     "firefox"
