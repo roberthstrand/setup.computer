@@ -30,6 +30,7 @@ $packages = @(
     "discord"
     "steam"
     "bitwarden"
+    "graphviz"
 )
 choco install $packages -y
 
